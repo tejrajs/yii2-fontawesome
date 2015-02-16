@@ -1,0 +1,28 @@
+{
+    "name": "tejrajs/yii2-fontawesome",
+    "description": "Just A Font-awesome Yii2 Widget  ",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","font-awesome"],
+    "homepage": "https://github.com/tejrajs/yii2-fontawesome#readme",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "tej raj shrestha",
+            "email": "helloteju96@gmail.com"
+        }
+    ],
+    "repositories":[
+   		{
+        	"type": "git",
+        	"url": "https://github.com/tejrajs/yii2-helloworld/tree/v0-beta.1"
+    	}
+	],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "tejrajs\\fontawesome\\": ""
+        }
+    }
+}
