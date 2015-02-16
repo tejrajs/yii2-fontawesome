@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist tejrajs/yii2-fontawesome "dev-master"
+php composer.phar require --prefer-dist tejrajs/yii2-fontawesome "*"
 ```
 
 or add
 
 ```
-"tejrajs/yii2-fontawesome": "dev-master"
+"tejrajs/yii2-fontawesome": "*"
 ```
 
 to the require section of your `composer.json` file.
