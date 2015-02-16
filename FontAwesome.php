@@ -11,7 +11,7 @@ class FontAwesome extends Widget{
 	public $icon;
 	public function run(){
 		$view = $this->getView();
-		$asset = HelloWorldAsset::register($view);
+		$asset = FontAwesomeAsset::register($view);
 		echo '<i class="fa fa-'.$this->icon.'"></i>';
 	}
 }
