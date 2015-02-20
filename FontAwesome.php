@@ -12,6 +12,6 @@ class FontAwesome extends Widget{
 	public function run(){
 		$view = $this->getView();
 		$asset = FontAwesomeAsset::register($view);
-		echo '<i class="fa fa-'.$this->icon.'"></i>';
+		echo '<i class="fa fa-'.str_replace(' ','',$this->icon).'"></i>';
 	}
 }
